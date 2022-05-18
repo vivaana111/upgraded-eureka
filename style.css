@@ -1,0 +1,41 @@
+body{
+    background-image: "https://i.pinimg.com/originals/61/fb/3a/61fb3a3cad763c90f82ddb1e16194a0c.jpg";
+}
+
+h3{
+    background-color:rgb(166, 237, 255);
+    color:rgb(204, 149, 255);
+    font-family: 'Lobster', cursive;
+}
+
+canvas{
+
+    border: 5px,rgb(255, 221, 248);
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    height: 280px;
+    width: 280px;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px mediumpurple;}
+    to{box-shadow: 1px 1px 38px orchid;}
+}
+.btn1{
+    font:black;
+    font-family: 'Lobster', cursive;
+}
+.copy_right_footer 
+{
+    font-family: 'Lobster', cursive;
+    position: fixed;
+    color: white;
+    bottom:0;
+    width:100%;
+    background-color: cyan;
+    line-height:3;
+    text-align: center;
+
+}
